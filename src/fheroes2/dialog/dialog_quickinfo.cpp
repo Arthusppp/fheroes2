@@ -294,6 +294,20 @@ std::string ShowGlobalVisitInfo( const Maps::Tiles & tile, const Kingdom & kingd
     return str;
 }
 
+std::string ShowObeliskVisitInfo( const Maps::Tiles & tile, const Kingdom & kingdom, const UltimateArtifact & ultimateArtifact)
+{
+    std::string str = MP2::StringObject( tile.GetObject() );
+
+    str.append( "\n \n" );
+    str.append( kingdom.isVisited( tile ) ? _( "(already visited)" ) : _( "(not visited)" ) );
+    str.append( "\n \n" );
+    str.append( ultimateArtifact.isFound() ? _( "(artifact found)" ) : _( "(artifact not found)" ) );
+
+    return str;
+}
+
+
+
 std::string ShowBarrierTentInfo( const Maps::Tiles & tile, const Kingdom & kingdom )
 {
     std::string str = BarrierColor::String( tile.QuantityColor() );
@@ -614,7 +628,7 @@ void Dialog::QuickInfo( const Maps::Tiles & tile )
             break;
 
         case MP2::OBJ_OBELISK:
-            name_object = ShowGlobalVisitInfo( tile, kingdom );
+            name_object = ShowObeliskVisitInfo( tile, kingdom, world.GetUltimateArtifact() );
             break;
 
         case MP2::OBJ_BARRIER:
