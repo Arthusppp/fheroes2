@@ -6622,36 +6622,31 @@ msgid "race|Neutral"
 msgstr "Neutralny"
 
 msgid "doubleLined|Knight"
-msgstr ""
+msgstr "Rycerz"
 
-#, fuzzy
 msgid "doubleLined|Barbarian"
-msgstr "Barbarzyńca"
+msgstr "Barba-\nrzyńca"
 
-#, fuzzy
 msgid "doubleLined|Sorceress"
-msgstr "Czarodziejka"
+msgstr "Czaro-\ndziejka"
 
 msgid "doubleLined|Warlock"
-msgstr ""
+msgstr "Czarno-\nksiężnik"
 
 msgid "doubleLined|Wizard"
-msgstr ""
+msgstr "Czarodziej"
 
-#, fuzzy
 msgid ""
 "doubleLined|Necro-\n"
 "mancer"
-msgstr "Nekromanta"
+msgstr "Nekro-\nmanta"
 
 msgid "doubleLinedRace|Multi"
-msgstr ""
+msgstr "Różne"
 
-#, fuzzy
 msgid "doubleLinedRace|Random"
 msgstr "Losowo"
 
-#, fuzzy
 msgid "doubleLinedRace|Neutral"
 msgstr "Neutralny"
 
