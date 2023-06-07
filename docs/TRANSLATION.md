@@ -102,8 +102,8 @@ Currently for MacOS users this location is dependent on what third-party package
 
 The Flatpak version of the fheroes2 installation from Flathub is located in the `usr/.var/app/io.github.ihhub.Fheroes2` directory.
 
-For Windows users who use POEdit or a similar application, it is possible to compile the MO file using such a program. However, note that
-the program will need to be set to compile the MO file in the font encoding/Charset that the language that you are translating to has been
+For Windows users who use POEdit or a similar application, it is possible to compile the MO file using said program. However, note that
+the program will need to be set to compile the MO file in the font encoding/charset that the language that you are translating to has been
 set to.
 
 For example, for German you will have to set font encoding to CP1252, while for Russian this would be CP1251. Later when submitting
