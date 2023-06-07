@@ -124,7 +124,7 @@ your work, I.E. "Update the Slovak translation".
 
 <details>
 
-<summary>Pull request restrictions</summary>
+<summary>Pull request restrictions - Please read</summary>
 
 The fheroes2 team has set a maximum of 400 total modified lines for any pull request for translations. For contributors wanting to
 add translated lines to a new language this has a maximum of 30 total modified lines for that first pull request.
@@ -146,7 +146,7 @@ example creature names or castle buildings.
 
 Currently all PO files are automatically updated with new strings after each commit that brings changes to the ingame text. If for whatever
 reason you still need to update strings locally, this can be achieved by running the command below in `src/dist` to generate a new portable
-object template (POT) file. Windows users will need to setup an environment that lets them run `make`, like Windows Subsystem for Linux (WSL)
+object template (POT) file. Windows users will need to set up an environment that lets them run `make`, like Windows Subsystem for Linux (WSL)
 or [**Cygwin**](https://www.cygwin.com/)/[**MSYS2**](https://www.msys2.org/).
 
 ```bash
@@ -154,8 +154,9 @@ make pot
 ```
 
 Once the POT file has been created, go to the `files/lang` folder and run the command below to update translatable strings in the PO files.
-If you are using programs mentioned above like POEdit, then they have options to merge new strings from a POT file.
 
 ```bash
 make merge
 ```
+
+If you are using programs mentioned above like POEdit, then they have options to merge new strings from a POT file.
