@@ -56,9 +56,9 @@ We encourage you to use [**poedit**](https://poedit.net/) or [**gtranslator**](h
 edit translations. Currently all implemented languages adhere to a standardized font encoding/charset.
 
 
-## Editing translations - Your first or next translation
+## Editing translations - For the first time or again
 
-### Sync your fork
+### Syncing your fork
 
 Before you start working on the first or next translation, make sure that your fork has all the recent changes from the fheroes2 repo.
 To do this, [**sync your fork**](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).
